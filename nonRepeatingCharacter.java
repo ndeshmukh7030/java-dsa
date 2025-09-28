@@ -12,9 +12,7 @@ public class main{
         System.out.println(map);
         for(var e :map.entrySet())
             if(e.getValue() == 1){
-                System.out.println(e.getKey());
-                break;
-                
+                System.out.println(e.getKey());     
             }
 
     }
